@@ -32,7 +32,7 @@ public class InfosServlet extends HttpServlet {
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		PrintWriter out = response.getWriter();
-		out.println(request.getAttribute("message"));
+		out.println(request.getAttribute("on fait le test"));
 	}
 
 	/**
